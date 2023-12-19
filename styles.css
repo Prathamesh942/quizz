@@ -139,3 +139,38 @@ button{
     color: #014f55;
     margin: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        position: relative;
+        background:none;
+        border: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .submit{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%,0%);
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: #014f55;
+        color: white;
+        border-radius: 20px;
+    }
+    .control{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .question{
+        width: 80vw;
+    }
+    .option label {
+        width: 80vw;
+    }
+}
