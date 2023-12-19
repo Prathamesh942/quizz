@@ -174,4 +174,15 @@ button{
     .option label {
         width: 80vw;
     }
+    
+.result{
+    width: 80vw;
+    height: 60vh;
+    color: white;
+    font-size: 30px;
+    background-color:#014f55;
+    border-radius: 30px;
+    max-width: 400px;
+    max-height: 600px;
+}
 }
