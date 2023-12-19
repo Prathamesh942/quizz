@@ -31,11 +31,12 @@ body{
 
 .question{
     width: 40vw;
-    padding: 20px 20px;
+    height: 60px;
+    padding: 5px 20px;
     background-color: #014f55;
     color: white;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     gap: 10px;
